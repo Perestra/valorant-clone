@@ -1,0 +1,14 @@
+
+
+.list {
+    list-style: none;
+
+    &__navLink {
+        font-size: 20px;
+        font-weight: 700;
+        color: #FFF;
+        
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+}
