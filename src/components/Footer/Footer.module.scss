@@ -1,0 +1,89 @@
+
+
+.footer {
+    width: 100%;
+    height: auto;
+
+    &__texts {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+        padding: 25px;
+
+        text-align: center;
+        background-color: #292929;
+
+        & > p {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #FFF;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+
+    &__social {
+        width: 100%;
+        height: auto;
+
+        padding: 25px;
+        background-color: #1E1E1E;
+
+        text-align: center;
+    }
+
+    &__icons {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 50px;
+
+        margin-bottom: 15px;
+
+        & > a {
+            border-radius: 50%;
+
+            padding: 12px;
+
+            display: flex;
+            background-color: #292929;
+        }
+
+        &__linkedin, &__github, &__instagram {
+          width: 25px;
+          height: 25px;
+          color: #FFF;
+
+          transition: color ease-in-out 0.125s;
+        }
+        &__linkedin:hover, &__github:hover, &__instagram:hover {
+            color: #FF4655;
+          }
+    }
+
+    &__developed {
+        width: 100%;
+        height: auto;
+
+        & > span {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: #FFF;
+        }
+        & > span > strong {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #FF4655;
+            text-transform: uppercase;
+        }
+    }
+
+    
+}
