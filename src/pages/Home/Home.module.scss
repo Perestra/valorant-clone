@@ -2,35 +2,84 @@
 
 .home { 
     width: 100%;
-    height: 900px;
-
-    background-image: url(../../assets/images/bg-home.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    overflow: auto;
+    height: auto;
 
     &__container {
         width: 100%;
-        height: auto;
+        height: 600px;
         
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
-        margin-top: 250px;
-        row-gap: 50px;
+        background-image: url(../../assets/images/bg-home.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        row-gap: 30px;
+        padding: 0 10px;
     }
 
     &__container > p {
-        font-size: 20px;
+        font-size: 1rem;
         font-weight: 600;
         color: #ECE8DF;
+    }
+
+    &__about__section {
+        background-color: #ECE8DF;
+        overflow: auto;
+    }
+    &__h1About, &__h1Maps {
+        color: #0F1923;
+    }   
+    &__h3About, &__h3Maps {
+        color: #383E3A;
+    }
+    &__pAbout,  &__pMaps {
+        color: #768079;
+    }
+
+    &__agents__section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        column-gap: 50px;
+        background-color: #FF4655;
+        overflow: auto;
+    }
+    &__h1Agents, &__h3Agents, &__pAgents {
+        color: #ECE8E1;
+    }   
+    &__ReynaRaize {
+        width: 100%;
+        max-width: 35%;
+    }
+
+    &__maps__section {
+        background-image: url(../../assets/images/bg-bind.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        overflow: auto;
     }
 }
 .logo_name {
     width: 100%;
-    max-width: 40%;
+    max-width: 700px;
+}
+.about__description_container, .agents__description_container {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    column-gap: 50px;
+    margin-top: 70px;
 }
