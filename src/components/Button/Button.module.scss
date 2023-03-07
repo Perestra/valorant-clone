@@ -1,10 +1,10 @@
 
 .container_btn {
-    width: 270px;
-    height: 75px;
+    width: 260px;
+    height: 68px;
 
     border: 1px solid #D9D9D9;
-    padding: 7px;
+    padding: 5px;
 }
 .btn {
     width: 100%;
@@ -16,15 +16,14 @@
     transition: all ease-in-out 0.2s;
 
     &__text {
-        font-size: 16px;
+        font-size: 1rem;
         font-weight: 700;
-        color: #FFF;
+        letter-spacing: 1px;
 
         text-transform: uppercase;
     }
 
     &:hover {
-        background-color: #0F1923;
         cursor: pointer;
     }
 }

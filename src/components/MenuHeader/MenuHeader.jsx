@@ -6,7 +6,7 @@ const MenuHeader = ({ to, title }) => {
   
   const activeStyle = {
     color: '#FF4655',
-    borderBottom: '3px solid #FFF',
+    borderBottom: '2px solid #FFF',
     paddingBottom: '5px',
     transition: 'all ease-in-out 0.2s'
   }
