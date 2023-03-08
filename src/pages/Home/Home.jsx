@@ -46,7 +46,8 @@ const Home = () => {
           valueBtn='Sobre o jogo'
           typeBtn='button'
           btnStyle={ BtnRedColor }
-
+          page= "/sobre"
+          
           video={ <VideoTag /> }
       />
       </section>
@@ -70,6 +71,7 @@ const Home = () => {
           valueBtn='Ver todos os agentes'
           typeBtn='button'
           btnStyle={ BtnLightColor }
+          page= "/agentes"
         />
       </section>
       <section className={ styles.home__maps__section }>
@@ -91,6 +93,7 @@ const Home = () => {
           valueBtn='Ver todos os mapas'
           typeBtn='button'
           btnStyle={ BtnRedColor }
+          page= "/mapas"
         />
       </section>
       
