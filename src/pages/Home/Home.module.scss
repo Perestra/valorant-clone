@@ -13,7 +13,7 @@
         justify-content: center;
         align-items: center;
 
-        background-image: url(../../assets/images/bg-home.png);
+        background-image: url(../../assets/images/home/bg-home.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -22,24 +22,10 @@
         padding: 0 10px;
     }
 
-    &__container > p {
-        font-size: 1rem;
-        font-weight: 600;
-        color: #ECE8DF;
-    }
 
     &__about__section {
         background-color: #ECE8DF;
         overflow: auto;
-    }
-    &__h1About, &__h1Maps {
-        color: #0F1923;
-    }   
-    &__h3About, &__h3Maps {
-        color: #383E3A;
-    }
-    &__pAbout,  &__pMaps {
-        color: #768079;
     }
 
     &__agents__section {
@@ -51,16 +37,14 @@
         background-color: #FF4655;
         overflow: auto;
     }
-    &__h1Agents, &__h3Agents, &__pAgents {
-        color: #ECE8E1;
-    }   
+      
     &__ReynaRaize {
         width: 100%;
         max-width: 35%;
     }
 
     &__maps__section {
-        background-image: url(../../assets/images/bg-bind.png);
+        background-image: url(../../assets/images/home/bg-home-maps.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
