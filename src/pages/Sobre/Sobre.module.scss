@@ -1,0 +1,38 @@
+
+
+.main {
+    width: 100%;
+    height: auto;
+
+    background-color: #ECE8E1;
+    overflow: auto;
+}
+.about {
+    width: 100%;
+    height: auto;
+
+    &__img {
+        width: 100%;
+        height: 600px;
+
+        object-fit: cover;
+        object-position: center -50px;
+    }
+
+    &__section { 
+        width: 100%;
+        max-width: 1280px;
+        height: auto;
+
+        margin: 100px auto;
+        padding: 0 10px;
+    }
+
+    &__article {
+        margin: 2rem calc(20% + 0.75rem) 0;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+}
