@@ -13,17 +13,27 @@
     border: none;
     outline: none;
 
-    transition: all ease-in-out 0.2s;
+    transition: all ease-in-out 0.125s;
 
     &__text {
-        font-size: 1rem;
+        font-size: 0.9rem;
         font-weight: 700;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
 
         text-transform: uppercase;
     }
 
     &:hover {
+        background-color: #0F1923;
+        color: #ECE8E1;
         cursor: pointer;
     }
+}
+.white {
+    background-color: #ECE8E1;
+    color: #383E3A;
+}
+.red {
+    background-color: #FF4655;
+    color: #FFF;
 }
