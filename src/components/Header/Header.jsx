@@ -6,7 +6,7 @@ import { ReactComponent as RiotLogo } from 'assets/svg/riot-games-logo.svg';
 import { RiArrowDropDownLine } from 'react-icons/ri'
 
 import ImgTag from 'components/ImgTag/ImgTag';
-import Nav from 'components/Nav/Nav';
+import NavHeader from 'components/NavHeader/NavHeader';
 
 import perfil from 'assets/images/perfil.jpg'
 
@@ -19,7 +19,7 @@ const Header = () => {
           <div className={ styles.slash }></div>
           <ValorantLogo />
         </div>
-        <Nav />
+        <NavHeader />
         <div className={styles.header__profile}>
           <ImgTag 
             src={ perfil } 

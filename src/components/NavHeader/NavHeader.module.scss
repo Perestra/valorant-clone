@@ -1,9 +1,12 @@
 
 
 .nav {
+    width: 100%;
+    height: auto;
+
     &__container {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
 
         column-gap: 60px;

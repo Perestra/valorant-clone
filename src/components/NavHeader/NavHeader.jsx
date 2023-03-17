@@ -1,8 +1,8 @@
 import React from 'react'
 import MenuHeader from 'components/MenuHeader/MenuHeader';
-import styles from './Nav.module.scss'
+import styles from './NavHeader.module.scss'
 
-const Nav = () => {
+const NavHeader = () => {
     return (
         <nav className={ styles.nav }>
             <ul className={ styles.nav__container }>
@@ -16,4 +16,4 @@ const Nav = () => {
     )
 }
 
-export default Nav
+export default NavHeader
