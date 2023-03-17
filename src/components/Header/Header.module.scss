@@ -4,7 +4,7 @@
     width: 100%;
     height: auto;
 
-    background-color: #1E1E1E;
+    background-color: #111;
     display: flex;
 
     padding: 12px 0;
@@ -15,9 +15,10 @@
         height: auto;
 
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
 
+        column-gap: 50px;
         margin: auto;
     }
     
@@ -26,7 +27,7 @@
         justify-content: center;
         align-items: center;
 
-        column-gap: 40px;
+        column-gap: 20px;
     }
 
     &__profile {
