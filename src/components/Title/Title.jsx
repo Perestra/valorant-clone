@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './Title.module.scss'
 
-const Title = ({ text, color }) => {
+const Title = ({ className, text, color }) => {
   return (
     <h1 className= { 
         `${styles.title}
-         ${styles[color]}` 
+         ${styles[color]}
+         ${className }`
     }>
         { text }
     </h1>
