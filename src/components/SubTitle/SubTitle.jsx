@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './SubTitle.module.scss'
 
-const SubTitle = ({ text, color }) => {
+const SubTitle = ({ className, text, color }) => {
   return (
     <h3 className={
         `${styles.subTitle}
-         ${styles[color]}`
+         ${styles[color]}
+         ${className }`
     }>
         { text }
     </h3>
