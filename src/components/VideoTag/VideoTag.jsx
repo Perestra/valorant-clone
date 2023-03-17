@@ -1,15 +1,20 @@
 import React from 'react'
-import ValorantAboutVideo from '../../assets/videos/valorant_about.mp4'
-import styles from './VideoTag.module.scss'
 
-const VideoTag = () => {
+const VideoTag = ({ className, poster, src }) => {
   return (
-    <div className={ styles.play }>
-      <video className={ styles.play__video } preload="true" autoPlay muted loop controls >
-        <source src={ ValorantAboutVideo } type='video/mp4'/>
-      </video>
-    </div>
-    
+    <video 
+      className={ className } 
+      autoPlay 
+      preload="true" 
+      muted 
+      loop 
+      poster={ poster }
+    >
+      <source 
+        src={ src } 
+        type='video/mp4'
+      />
+    </video>
   )
 }
 
