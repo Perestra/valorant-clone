@@ -418,5 +418,467 @@
                 "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt65aa85bf6ba5c0e8/5ecad814a4fe135d37f021a3/Omen_X_v001_web.mp4"
             }
         ]
+    },
+    {
+        "id": 11,
+        "name": "Jett",
+        "role": [
+            {
+                "name": "Duelista",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt213441880cf2cdf5/5eaa06851b51e36d7c1b61d4/Duelist.png"
+            }
+        ],
+        "biography": "Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceaa6cf20d328bd5/5eb7cdc1b1f2e27c950d2aaa/V_AGENTS_587x900_Jett.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Corrente ascendente",
+                "description": "INSTANTANEAMENTE impele Jett bem alto no ar.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltce7928301a67a33a/5eaf861103f6e72ff388cc20/TX_Jett_Q.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2c46e5d7a51be140/5ecad7f552c5395e0f2dd0de/Jett_Q_v001_web.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Brisa de impulso",
+                "description": "ATIVE para preparar uma rajada de vento por tempo limitado. REPITA a habilidade para lançar Jett na direção do movimento atual dela. Se estiver parada, Jett será lançada para a frente.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta0beeaa4a7e1ed78/5eaf8611b8a6356e4ddc1013/TX_Jett_E.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt063b1d451ace55f4/639367e93b5f412f83e8db36/Jett_E_rework_web.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Erupção das brumas",
+                "description": "Lança INSTANTANEAMENTE um projétil que se expande numa breve nuvem que obscurece a visão ao bater numa superfície. SEGURE o botão da habilidade para curvar a fumaça na direção da sua mira.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf137993847c71770/5eaf8611d4b10d15d3e8db4e/TX_Jett_C.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb15019d03f48b8c3/5ecad7f7beb6c333c3a0f59d/Jett_C_v001_web.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Tormenta de aço",
+                "description": "EQUIPE um conjunto de facas altamente precisas que são recarregadas ao matar um oponente. DISPARE para lançar uma única faca contra o alvo. Use o DISPARO ALTERNATIVO para jogar todas as facas restantes contra o alvo.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb3e956f9fb96318e/5eaf86112b79652f27c32a06/TX_Jett_X.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta43d8d506e2f5e00/5ecad7f6957e405e0990574d/Jett_X_v001_web.mp4"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Raze",
+        "role": [
+            {
+                "name": "Duelista",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt213441880cf2cdf5/5eaa06851b51e36d7c1b61d4/Duelist.png"
+            }
+        ],
+        "biography": "Raze chega do Brasil em uma explosão de carisma e armas letais. Com seu estilo de jogo 'porradeiro', ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com uma bela dose de BUUUM!",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6fef56a8182d0a81/5ebf2c2798f79d6925dbd6b4/V_AGENTS_587x900_ALL_Raze_2.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Carga de explosivos",
+                "description": "INSTANTANEAMENTE joga uma Carga de Explosivos que gruda em superfícies. REUSE a habilidade depois de instalar para detonar, causando dano e movendo tudo que for atingido. Raze não sofre dano ao ser atingida pelo efeito desta habilidade, mas ainda pode sofrer dano de queda se for arremessada para longe.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltdb74f287eee9fe76/5eaf862a248a28605479c91f/TX_Raze_Q.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf3581aedf43e1ce8/5ecad83cc846021917ecbb8d/Raze_Q_v001_web.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Cartuchos de tinta",
+                "description": "EQUIPE uma granada múltipla. DISPARE para jogar a granada, que causa dano e cria submunições, cada uma causando dano a qualquer um que estiver no alcance.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb0eb89e122c1f4ea/5eaf862ad238e314f259fa8b/TX_Raze_E.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltfe61b821c26125b7/5ecad83be2a559592eb0c1ba/Raze_E_v001_web.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Bumba",
+                "description": "EQUIPE um Bumba. DISPARE para lançar o robô, que avança em linha reta no chão, ricocheteando nas paredes. O Bumba trava ao detectar inimigos no cone frontal e os persegue, explodindo e causando muito dano se alcançá-los.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt44acc030d4d60182/5eaf862aa20afe612d82fb4e/TX_Raze_C.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3f7d7ee195ecedca/5ecad83c52c5395e0f2dd0e4/Raze_C_v001_web.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Estraga-prazeres",
+                "description": "EQUIPE um lança-mísseis. DISPARE um foguete que causa dano devastador em área ao fazer contato com qualquer coisa.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt60023b671f330740/5eaf862ae6f6795e530a2717/TX_Raze_X.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb15aa9cb086aed1a/5ecad83c4a28e119db5622a2/Raze_X_v001_web.mp4"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Skye",
+        "role": [
+            {
+                "name": "Iniciadora",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2965c8a8dce0467d/5eaa0685e6f6795e530a1cbe/Initiator.png"
+            }
+        ],
+        "biography": "Mandando um salve direto da Austrália, Skye e sua equipe de feras desbravam territórios hostis. Com seus poderes de cura e suas criações que partem pra cima dos inimigos, qualquer equipe ficará mais forte e mais segura tendo Skye como aliada.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt302fcb2b9628c376/5f7fa6ff8db9ea0f149ece0a/V_AGENTS_587x900_ALL_Skye.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Predador explosivo",
+                "description": "EQUIPE um amuleto de lobo-da-tasmânia. DISPARE para enviar e controlar esse predador. Enquanto estiver no controle, DISPARE para saltar para a frente. O lobo gera uma explosão e causa dano aos inimigos diretamente atingidos.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta3c0de454b776542/5f7fa772e69fa40ef3183bda/SKye-abilities-_0000s_0003_ICONS_0000_Layer-1.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt90a6f2733b96ce16/5f7faa7dd4fbb50ef307791e/Val_Skye_Q_Ability_Web.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Luz desbravadora",
+                "description": "EQUIPE um amuleto de falcão. DISPARE para enviá-lo. SEGURE O DISPARO para guiar o falcão na direção da sua mira. REPITA a habilidade enquanto ele estiver voando para transformá-lo em um feixe de luz que gera uma confirmação de hit caso um inimigo esteja dentro do alcance ou na linha de visão.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7243683c6daf467d/5f7fa7729d46c20f09177ab7/SKye-abilities-_0000s_0002_ICONS_0001_Layer-2.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8ecea4a77a26c25b/5f7fab7adf178b0ea98495a5/Val_Skye_E_Ability_Web.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Reflorecer",
+                "description": "EQUIPE um amuleto de cura. SEGURE O DISPARO para canalizar, curando aliados dentro do alcance e na sua linha de visão. Esta habilidade pode ser repetida até a reserva de cura ser esgotada. Skye não pode curar a si mesma.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaa1ff9d900a13d3a/5f7fa772f98ad40e91dc75e4/SKye-abilities-_0000s_0001_ICONS_0002_Layer-3.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0f5403509070a0a2/5f7fabc5879de80eb41b1f33/Val_Skye_C_Ability_Web.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Rastreadores",
+                "description": "EQUIPE um amuleto de rastreador. DISPARE para enviar três rastreadores que localizarão os três inimigos mais próximos. Se um rastreador alcançar um alvo, ele causará visão turva a esse inimigo.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltce2ce64e31a00348/5f7fa77202e6b80ebf902384/SKye-abilities-_0000s_0000_ICONS_0003_Layer-4.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt966535853a54c58c/5f7fac19df178b0ea98495ad/Val_Skye_X_Ability_Web.mp4"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Yoru",
+        "role": [
+            {
+                "name": "Duelista",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt213441880cf2cdf5/5eaa06851b51e36d7c1b61d4/Duelist.png"
+            }
+        ],
+        "biography": "Yoru, nativo do Japão, abre fendas na realidade para infiltrar as linhas inimigas sem ser visto. Ele usa tanto artimanhas quanto táticas agressivas, e os alvos são abatidos sem saber de onde o ataque veio.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4080f8efb365751/5ff5660bb47cdf7fc7d6c3dc/V_AGENTS_587x900_yoru.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Ponto cego",
+                "description": "EQUIPE para arrancar um fragmento dimensional instável da realidade. DISPARE para lançar o fragmento, ativando um clarão que se dissipa ao atingir uma superfície sólida.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt54759b7874fbd40c/5ff5681bb47cdf7fc7d6c3e6/Yoru_Anility_Icons_512x512_Q.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt9af4e1e3b962f7b4/5ff77b6fa703d10ab87ebb27/Yoru_Abilities_Blinding_1_1.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Passagem dimensional",
+                "description": "EQUIPE um fluxo dimensional. DISPARE para lançá-lo à frente. Use o MODO SECUNDÁRIO para posicionar um fluxo imóvel. ATIVE para se teleportar até ele. USE para acionar um teleporte falso.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5427236bf8a82b05/5ff5685e1166ce7d2ed1bd5d/yoru_ability_icons_52x512_E.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0945f456a2bcac77/62215a1f47e4d72e3e67ff1a/Website_Yoru_Rework_Gatecrash_v2.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Distração",
+                "description": "EQUIPE um eco dimensional que se transforma em uma cópia do Yoru quando ativado. DISPARE para ativar a cópia e fazê-la avançar. Use o MODO SECUNDÁRIO para posicionar um eco inativo. USE para transformar o eco inativo em uma cópia e fazê-la avançar. As cópias explodem e cegam os inimigos quando destruídas por eles.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3ffa0e1858916cb8/622159a1c56d222d0cb0cc12/TX_Yoru_Fakeout.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt47c96a79f14605fc/62215aaed83ad851e8a9e09d/Website_Yoru_Rework_Fakeout_v2.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Espionagem dimensional",
+                "description": "EQUIPE uma máscara para olhar por entre as dimensões. DISPARE para entrar na dimensão do Yoru, onde você não poderá ser afetado nem visto pelos inimigos lá fora.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltceb6f71853fa7be7/5ff568b3396e65084a9e8c7c/Yoru_Anility_Icons_512x512_X.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt95a89496da772b65/62215bbd6f0333490a0e7bec/Website_Yoru_Rework_Dimensional_Drift_v2.mp4"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Astra",
+        "role": [
+            {
+                "name": "Controladora",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt63e21ca9443dce8e/5eb270f43b09c042ddca1353/Controller.png"
+            }
+        ],
+        "biography": "Astra, a Agente ganense, utiliza energias cósmicas para moldar o campo de batalha a seu bel-prazer. Com total domínio da sua forma astral e um talento estratégico nato, ela está sempre anos-luz à frente dos inimigos.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt5599d0d810824279/6036ca30ce4a0d12c3ec1dfa/V_AGENTS_587x900_Astra.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Pulso nova",
+                "description": "Posicione Estrelas na Forma Astral (X) ATIVE uma Estrela para detonar um Pulso Nova. O Pulso Nova carrega brevemente e depois estoura, causando concussão a todos os jogadores na área.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6c1af0fc248130d8/6036ebc34ea5666c4e568931/Astra_Ability_Icons_Q_NovaPulse-updated.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt78e556d97ea93fc9/6036c92572c04c12c9563dff/RIFT21_Astra_Ability_Q.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Nebulosa",
+                "description": "Posicione Estrelas na Forma Astral (X) ATIVE uma Estrela para transformá-la em uma Nebulosa (fumaça). Utilize (F) em uma Estrela para dissipá-la, retornando a estrela para ser posicionada em um novo local após um período de tempo. Dissipar forma brevemente uma Nebulosa falsa na localização da Estrela antes de retornar.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbac51e4fe3127e73/6036ebe011a708101ad34613/Astra_Ability_Icons_E_Nebula-updated.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3be9010588cba144/6036c924427f5d75042c3ae5/RIFT21_Astra_Ability_E_F.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Poço gravitacional",
+                "description": "Posicione Estrelas na Forma Astral (X) ATIVE uma Estrela para formar um Poço Gravitacional. Jogadores na área são puxados em direção ao centro antes de ele explodir, deixando frágeis todos que ainda estão presos no centro.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7bdd5c2fe4424ea4/6036ebf6427f5d75042c3b69/Astra_Ability_Icons_C_GravityWell-updated.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltaba20d81cc601af4/6036c92599494e6c4f166b19/RIFT21_Astra_Ability_C.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Forma astral / Divisa cósmica",
+                "description": "ATIVE (X) para entrar na Forma Astral, em que você pode posicionar Estrelas com DISPARO ALTERNATIVO. As Estrelas podem ser reativadas depois para serem transformadas em Pulso Nova, Nebulosa ou Poço Gravitacional. Quando Divisa Cósmica estiver carregada, utilize o DISPARO SECUNDÁRIO na Forma Astral para começar a mirar e, depois, o DISPARO PRIMÁRIO para escolher dois locais. Após isso, uma Divisa Cósmica infinita surge e conecta os pontos selecionados. A Divisa Cósmica bloqueia disparos e abafa muito o som.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb3be7bedff1eb3bf/6036ec144ea5666c4e568933/Astra_Ability_Icons_X_CosmicDivide-updated.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltca94f8d6f8e4c91d/6036c92499494e6c4f166b15/RIFT21_Astra_Ability_ULT.mp4"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Kay/o",
+        "role": [
+            {
+                "name": "Iniciador",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2965c8a8dce0467d/5eaa0685e6f6795e530a1cbe/Initiator.png"
+            }
+        ],
+        "biography": "KAY/O é uma máquina de guerra construída com um único propósito: neutralizar Radiantes. Ele é capaz de suprimir habilidades inimigas, comprometendo a capacidade de contra-ataque dos adversários e dando a si próprio e a seus aliados uma vantagem essencial em combate.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte5aefeb26bee12c8/60ca5aa30ece0255888d7faa/KAYO_KeyArt_587x900.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Granada/Clarão",
+                "description": "EQUIPE uma granada de clarão. DISPARE para jogá-la. A granada de clarão explode após um curto período, cegando qualquer um que estiver na linha de visão.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt83e92ae578e66b8e/60d204231e0505677a882f38/Q_FlashDrive.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltab2fead35a9b412d/60cce5d49b520349ac9d080d/KAYO_C_v002_web.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Ponto/Zero",
+                "description": "EQUIPE uma lâmina de supressão. DISPARE para atirá-la. A lâmina se fixa à primeira superfície que atingir e explode, suprimindo qualquer um que estiver dentro do raio da explosão.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt496288e7ab899b47/60d2018db930a53616fa4882/E_ZeroPoint.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt11ab79d777cba68e/60cce41a07060a4ae3f12ff1/KAYO_E_v002_web.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Frag/mento",
+                "description": "EQUIPE um fragmento explosivo. DISPARE para lançá-lo. O fragmento se fixa ao chão e explode várias vezes, causando dano quase letal no centro de cada explosão.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte671cefaedb07d26/60d2046483f9fe49a6fef713/C_FragMent.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6372c1b58baf8ca2/60cce401ae0d50495b4f7e31/KAYO_Q_v001_web.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Anular/CMD",
+                "description": "INSTANTANEAMENTE sobrecarrega com energia de Radianita polarizada que fortalece KAY/O e emite grandes pulsos energéticos a partir de onde ele estiver. Inimigos atingidos pelos pulsos são suprimidos por um curto período.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltead1f4cb9ad32e19/60d20208bcec595109d831c2/X_NullCmd.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6cd3a6f6e99152f8/60cce43683f9fe49a6fee835/KAYO_X_v003_web.mp4"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Chambet",
+        "role": [
+            {
+                "name": "Sentinela",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt72ffc2e48d4a7a58/5eaa06852b79652f27c31ff6/Sentinel.png"
+            }
+        ],
+        "biography": "Bem vestido e armado até os dentes, o criador de armas francês Chamber coloca os inimigos para correr com uma precisão mortal. Use e abuse do arsenal personalizado dele para segurar posições e abater inimigos de longe, criando a defesa perfeita para qualquer plano.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6f1392b30784e029/618d9da0d380f814d61f001c/WebUpdate_Chamber_KeyArt.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Caçador de cabeças",
+                "description": "ATIVE para equipar uma pistola pesada. Use o DISPARO ALTERNATIVO com a pistola equipada para mirar.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt734ce749d24f1b4f/618d9ebad380f814d61f0020/Chamber_ability_Q.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc97eeaeb138d2155/618d9fb7867d1817d95f3b2b/VAL_broll_EP03-3_Chamber_Q.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Rendezvous",
+                "description": "POSICIONE uma âncora de teleporte. Enquanto estiver no chão e dentro do alcance da âncora, REATIVE para teleportar rapidamente até a âncora. A âncora pode ser recuperada para ser REPOSICIONADA.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt273c7e9db39da271/618d9ec29dccbf6fa4178520/Chamber_ability_E.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt060399adf0531693/63937bd46675d51080de0e5d/Chamber_E_rework_web.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Marca registrada",
+                "description": "POSICIONE uma armadilha que busca por inimigos. Quando um inimigo visível entrar no alcance, a armadilha inicia uma contagem regressiva e desestabiliza o terreno ao redor, criando um campo duradouro que reduz a velocidade dos jogadores. A armadilha pode ser recuperada para ser REPOSICIONADA.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt4c14aadba51a0037/618d9ed03b08dd14d79a8087/Chamber_ability_C.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt10d79f98d5c3a553/63937a1c956fc631a94dbe53/Chamber_C_rework_web.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Tour de force",
+                "description": "ATIVE para invocar um poderoso fuzil de precisão personalizado que abate um inimigo com qualquer acerto. Abater um inimigo cria um campo duradouro que reduz a velocidade dos jogadores dentro dele.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt6856745815feee67/618d9eda3b08dd14d79a808b/Chamber_ability_X.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta33b5e15a758d337/63937c9ddd9cc310b3158737/Chamber_X_rework_web.mp4"
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Neon",
+        "role": [
+            {
+                "name": "Duelista",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt213441880cf2cdf5/5eaa06851b51e36d7c1b61d4/Duelist.png"
+            }
+        ],
+        "biography": "Neon, nossa Agente filipina, avança em velocidades incríveis, descarregando surtos de radiância bioelétrica tão rapidamente quanto seu corpo consegue gerá-los. Ela corre à frente para pegar os inimigos de surpresa, abatendo-os mais rápido do que um raio.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8093ba7b5e84ed05/61d8a63ddea73a236fc56d12/Neon_KeyArt-Web.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Ricochete elétrico",
+                "description": "INSTANTANEAMENTE arremessa um raio de energia que ricocheteia uma vez. Ao atingir cada superfície, o raio eletrifica o chão abaixo dele com uma explosão.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt10d37aa745665f36/61d8a80814ef402247ceab30/Neon_Q-Relay_Bolt.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf634e203f29987a5/61d8a91abf9cb8387cc1d9c8/VAL_Neon_Ability-Q_Preview_Stun_noHUD_Web_h264.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Equipamente voltaico",
+                "description": "INSTANTANEAMENTE canaliza o poder de Neon para receber velocidade aumentada. Ao atingir a carga máxima, use o DISPARO ALTERNATIVO para acionar um deslize elétrico. O carregamento é redefinido a cada dois abates.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc7f73a2cfc4e3e44/61d8a8181757dc6aed2ada7c/Neon_E-High_Gear.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt99e20f893b806cc8/61d8a9608aabbf6426b7523a/VAL_Neon_Ability-E_Preview_Sprint_noHUD_Web_h264.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Via expressa",
+                "description": "DISPARE duas linhas de energia no chão à frente. As linhas se estendem por uma curta distância ou até atingirem uma superfície. Elas se tornam paredes de eletricidade estática que bloqueiam a visão e causam dano aos inimigos que as atravessarem.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt50ac2316cddbb64d/61d8a8209efff26ae759809a/Neon_C-Fast_Lane.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt023814e24e6cad2f/61d8a98914ef402247ceab3a/VAL_Neon_Ability-C_Preview_Walls_noHUD_Web_h264.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Sobrecarga",
+                "description": "Neon libera todo o seu poder e velocidade por um curto período. DISPARE para canalizar isso em um raio elétrico mortal com alta precisão de movimento. A duração é redefinida com cada abate.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltcf74e9670f324266/61d8a829997c0e224de09fae/Neon_X-Overdrive.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltcbe0e9c4b801f025/61d8a9dfef206c6c5e4941ba/VAL_Neon_Ability-X_Preview_Ult_noHUD_Web_h264.mp4"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Fade",
+        "role": [
+            {
+                "name": "Iniciadora",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2965c8a8dce0467d/5eaa0685e6f6795e530a1cbe/Initiator.png"
+            }
+        ],
+        "biography": "Fade, uma caçadora de recompensas turca, usa o poder dos pesadelos para capturar os segredos dos inimigos. Personificando o próprio terror, ela persegue os alvos e revela seus medos mais profundos para, depois, destruí-los na escuridão.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt516d37c6c84fcda0/625db737c9aa404b76ddd594/Fade_Key_Art_587x900_for_Website.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Clausura",
+                "description": "EQUIPE um nódulo de puro temor. DISPARE para arremessá-lo. O nódulo cairá depois de um determinado tempo. REPITA a habilidade para soltá-lo antecipadamente. Esse nódulo se rompe ao impacto, enclausurando inimigos próximos. Inimigos enclausurados sofrem surdez e deterioração.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt80d49ffb1f533029/625db8131574214ead41fc2f/Fade_-_Q_-_Seize.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbec73caca7bf1045/62701777bae21939d5444b9e/Q-seize_video_NEW.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Assombrar",
+                "description": "EQUIPE uma assombração. DISPARE para arremessá-la. Ela cairá depois de um determinado tempo. REPITA a habilidade para soltá-la antecipadamente. Essa assombração ataca ao contato, revelando inimigos em sua linha de visão e criando rastros sinistros até eles. Ela pode ser destruída pelos inimigos.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltff792b334e149272/625db875fd9afd4b1fe2fbf2/Fade_-_E_-_Haunt.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt82a21218065dc472/625f2c47fd9afd4b1fe300ea/E-Haunt_video.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Espreitador",
+                "description": "EQUIPE um Espreitador. DISPARE para enviá-lo à frente. SEGURE O DISPARO para mover o Espreitador na direção da sua retícula. Ele perseguirá o primeiro rastro sinistro ou inimigo que encontrar e afetará o alvo com visão turva ao alcançá-lo.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc12f51743ac56940/625db87d7e7b344b2534f838/Fade_-_C_-_Prowler.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf4e7a6525fe6ec42/625f2c7cfd9afd4b1fe300ee/C-Prowler_video.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Véu da noite",
+                "description": "EQUIPE o poder dos pesadelos. DISPARE para liberar uma onda implacável de energia aterrorizante. Inimigos atingidos pela onda são marcados por rastros sinistros e sofrem surdez e deterioração.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt70f96353cf61d295/625db8887e7b344b2534f83c/Fade_-_X_-_Nightfall.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt75dfbdc2fbf6bfe1/625f2ba62777714c51b313be/X-Nightfall_Video.mp4"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Harbor",
+        "role": [
+            {
+                "name": "Controlador",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt63e21ca9443dce8e/5eb270f43b09c042ddca1353/Controller.png"
+            }
+        ],
+        "biography": "Vindo do litoral indiano, Harbor entra em campo com a força da tormenta, empunhando tecnologia ancestral com domínio sobre a água. Ele libera corredeiras espumantes e ondas esmagadoras para proteger seus aliados e atacar aqueles que se opõem a ele.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt81e8a3e8c7beeaf3/634894a15e281916980f655b/Harbor_KeyArt-web.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Enseada",
+                "description": "EQUIPE uma esfera de água defensiva. DISPARE para jogá-la. Use o DISPARO ALTERNATIVO para lançar por baixo. Ao atingir o solo, a esfera invoca um escudo de água destrutível que bloqueia balas.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blta7b530a6396a2fee/6348a9e88473831f96bbc3ab/TX_Mage_ShieldGrenade.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1a7cd79cbb632c3c/6349d6906a938c238802a820/Harbor_Q_v001_web.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Maré alta",
+                "description": "EQUIPE uma parede de água. DISPARE para enviar a água para frente junto ao chão. SEGURE O DISPARO para guiar a água na direção da sua retícula, atravessando o mundo e fazendo surgir uma parede ao longo do caminho. Use o DISPARO ALTERNATIVO enquanto curva para parar a água mais cedo. Jogadores atingidos sofrem REDUÇÃO DE VELOCIDADE.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc713955823a626c5/6348a9e8dc111e1f95032df0/TX_Mage_WaterWall.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blte6e80f8936913459/6349d682b0662c1e9a67222a/Harbor_E_v001_web.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Cascata",
+                "description": "EQUIPE uma onda de água. DISPARE para enviar a onda para frente e através de paredes. REPITA para impedir a onda de seguir em frente. Jogadores atingidos sofrem REDUÇÃO DE VELOCIDADE.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8f7e1a26b7bae10b/6348a9e8e9d2c541844df812/TX_Mage_TidalWave.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8fb30bd82f7dcd97/6349d669b2dba3104a11dde4/Harbor_C_v001_web.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Acerto de contas",
+                "description": "EQUIPE o poder total do seu Artefato. DISPARE para invocar um gêiser no solo. Os inimigos na área são repetidamente alvejados por ataques do gêiser. Jogadores capturados dentro de uma área de ataque sofrem CONCUSSÃO.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltba6bb33d886bfa80/6348a9e85e281916980f657d/TX_Mage_Tempest.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0536369c7a3b7986/6349d677c96b72418f47a8c4/Harbor_X_v001_web.mp4"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Gekko",
+        "role": [
+            {
+                "name": "Iniciador",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2965c8a8dce0467d/5eaa0685e6f6795e530a1cbe/Initiator.png"
+            }
+        ],
+        "biography": "Gekko, de Los Angeles, lidera um grupo muito unido de criaturas caóticas. Seus amigos atropelam tudo, tirando os inimigos do caminho. Depois, Gekko corre atrás deles para reagrupá-los e reiniciar o processo.",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc942933be01094ae/6402724fe9f75310481c3851/V_AGENTS_587x900_Gekko2.png",
+        "skills": [
+            {
+                "slot": "Q",
+                "name": "Wingman",
+                "description": "EQUIPE Wingman. DISPARE para enviá-lo para encontrar inimigos. Wingman lança uma forte explosão na direção do primeiro inimigo que vê. Use o DISPARO ALTERNATIVO na direção de um ponto ou Spike plantada para que Wingman plante ou desarme a Spike. Para plantar, Gekko deve estar com a Spike no inventário. Quando Wingman expira, ele se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Wingman após um curto período.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt84c8955357322ecd/64027318ec12cd34d0060449/Gekko_ability_Icon_Wingman_.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt79a9f8119f366ad1/64029afe10329144ff021282/Website_Gekko_Wingman_Stun_FNL.mp4"
+            },
+            {
+                "slot": "E",
+                "name": "Dizzy",
+                "description": "EQUIPE Dizzy. DISPARE para enviá-la voando pelo ar. Dizzy avança e solta explosões de plasma nos inimigos em sua linha de visão. Os inimigos atingidos pelo plasma ficam cegos. Ao expirar, Dizzy se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Dizzy após um curto período.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt09558f0cb6be03a3/6402737a27ccd11087ac6a70/Gekko_ability_Icon_3.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7a75dbdd9b6c4220/64029b4743153734d1472d59/Website_Gekko_Dizzy_FNL.mp4"
+            },
+            {
+                "slot": "C",
+                "name": "Mosh pit",
+                "description": "EQUIPE Mosh. DISPARE para lançá-lo como uma granada. Use o DISPARO ALTERNATIVO para lançar por baixo. Ao atingir uma superfície, Mosh se duplica em uma grande área e, depois de uns instantes, explode.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb04bcc15680583e4/640273e5aa6c3f7f594bd1cf/Gekko_icon_mosh.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltf9f635d9cb6cf999/64029aa343153734d1472d55/Website_Gekko_MoshPit_FNL.mp4"
+            },
+            {
+                "slot": "X",
+                "name": "Thrash",
+                "description": "EQUIPE Thrash. DISPARE para se conectar à mente dela e guiá-la pelo território inimigo. ATIVE para avançar e explodir, detendo qualquer inimigo em um pequeno raio. Ao expirar, Thrash se transforma em um glóbulo inativo. INTERAJA para recuperar o glóbulo e ganhar outra carga de Thrash após um curto período. Thrash pode ser recuperada uma vez.",
+                "icon": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltb24321feccb0cb69/6402740fba95fe6a2554b0b5/Gekko_ability_icon_4.png",
+                "video": "https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1a1188dafa478506/64029a1a205f2b7a60b74497/Website_Gekko_Thrash_FNL.mp4"
+            }
+        ]
     }
 ]
