@@ -22,11 +22,11 @@ const ItemDescription = ({
   return (
     <div className={ styles.item }>
       <div className={ styles.item__container }>
-        <Title color={ titleColor } text={ titleText }/>
+        <Title className={ styles.item__title } text={ titleText } color={ titleColor }/>
         <div className={ descpritClass }>
           <div className={ styles.item__description }>
-            <SubTitle text={ subTitle } color={ subTitleColor } />
-            <Text text={ text } color={ textColor } />
+            <SubTitle className={ styles.item__subtitle } text={ subTitle } color={ subTitleColor } />
+            <Text className={ styles.item__text } text={ text } color={ textColor } />
             <Button type={ typeBtn } title={ titleBtn } value={ valueBtn } color={ btnColor } onClick={ () => navigate(page) } />
           </div>
           { video }

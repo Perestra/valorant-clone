@@ -19,4 +19,15 @@
 
         row-gap: 35px;
     }
+
+    &__title {
+        font-size: 105px;
+    }
+    &__subtitle {
+        font-size: 20px;
+        letter-spacing: 0.3px;
+    }
+    &__text {
+        font-size: 15px;
+    }
 }
