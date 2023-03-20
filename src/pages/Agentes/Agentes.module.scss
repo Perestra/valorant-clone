@@ -10,9 +10,9 @@
 
     position: relative;
 
-    &__video {
+    &__background {
         width: 100%;
-        height: 65vh;
+        height: 645px;
 
         position: absolute;
         left: 0;
@@ -24,13 +24,13 @@
         z-index: -1;
     }
 
-    &__agents {
+    &__agents { 
         width: 100%;
-        max-width: 85%;
-        height: auto;
+        max-width: 67%;
+        height: 645px;
 
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         margin: auto;
     }
@@ -39,15 +39,25 @@
         width: 100%;
         max-width: 780px;
         height: auto;
+
+        position: absolute;
+        margin-top: 11rem;
+
+        transform: translate(35%, 0%);
+        z-index: -1;
     }
 
     &__knowTeam {
-        width: 315px;
+        width: 100%;
+        max-width: 315px;
         height: auto;
 
         display: flex;
         flex-direction: column;
-        row-gap: 15px;
+        row-gap: 25px;
+        
+        border-bottom: 1px solid #ECE8E1;
+        padding-bottom: 40px;
 
         &__subTitle {
             font-size: 16px;
