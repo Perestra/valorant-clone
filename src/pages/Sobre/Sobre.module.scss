@@ -26,6 +26,10 @@
 
         margin: 100px auto;
         padding: 0 10px;
+
+        &__title {
+            font-size: 105px;
+        }
     }
 
     &__article {
@@ -34,5 +38,9 @@
         display: flex;
         flex-direction: column;
         row-gap: 2rem;
+
+        &__text {
+            font-size: 15px;
+        }
     }
 }
