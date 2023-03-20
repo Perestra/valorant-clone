@@ -1,18 +1,26 @@
 .list {
     list-style: none;
-}
-.agent {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 
-    column-gap: 20px;
+    &__agent {
+        width: 100%;
+        height: 115px;
+        overflow: hidden;
+       
+        display: flex;
+        column-gap: 20px;
+    
+        &__text {
+            font-size: 14px;
+            font-weight: 500;
 
-    &__text {
-        font-size: 15px;
-        font-weight: 600;
+            margin-top: 30px;
+        }
+        &__title {
+            font-size: 95px;
+            transition: all ease-in-out 0.15s;
+        }
     }
-    &__title {
-        font-size: 95px;
+    &__agent:hover .list__agent__title {
+        margin-left: 8px;
     }
 }

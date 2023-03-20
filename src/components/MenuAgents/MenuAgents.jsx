@@ -7,13 +7,13 @@ import Text from 'components/Text/Text'
 
 const MenuAgents = ({ agentId, agentName  }) => {
   return (
-    <li key={ agentId } className={ styles.agent } >
+    <li key={ agentId } className={ styles.list } >
         <NavLink
             to= {`/agentes/${agentName}`}
-            className={ styles.agent } 
+            className={ styles.list__agent } 
         >
-            <Text className={ styles.agent__text } text={ agentId } color='white'/>
-            <Title className={ styles.agent__title } text={ agentName } color='white'/>
+            <Text className={ styles.list__agent__text } text={ agentId } color='white'/>
+            <Title className={ styles.list__agent__title } text={ agentName } color='white'/>
         </NavLink>
     </li>
    
