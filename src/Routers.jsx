@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from 'pages/Home/Home'
 import Sobre from 'pages/Sobre/Sobre'
 import Agentes from 'pages/Agentes/Agentes'
-import Mapas from 'pages/Mapas/Mapas'
+import Maps from 'pages/Maps/Maps'
 import Armas from 'pages/Armas/Armas'
 
 const Routers = () => {
@@ -19,7 +19,7 @@ const Routers = () => {
         <Route index element={ <Home /> }/>
         <Route path='/sobre'   element={ <Sobre /> } />
         <Route path='/agentes' element={ <Agentes /> } />
-        <Route path='/mapas'   element={ <Mapas /> } />
+        <Route path='/mapas'   element={ <Maps /> } />
         <Route path='/armas'   element={ <Armas /> } />
       </Routes>
       <Footer />
