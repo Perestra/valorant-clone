@@ -1,0 +1,25 @@
+
+
+.maps {
+    background-color: #ECE8E1;
+    overflow: auto;
+
+    position: relative;
+
+    &__section {
+        width: 100%;
+        max-width: 1200px;
+        height: 645px;
+
+        position: relative;
+        margin: 70px auto 100px;
+
+        &__title {
+            position: absolute;
+
+            font-size: 120px;
+            z-index: 2;
+        }
+
+    }
+}
