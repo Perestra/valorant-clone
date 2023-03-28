@@ -22,9 +22,8 @@ const NavAgents = ({ agents }) => {
             className= { styles.nav__agent }
           >
             { agents.map(agent => 
-                <SwiperSlide>
+                <SwiperSlide key={ agent.id.toString().padStart(2,'0') }>
                   <MenuAgents
-                    key={ agent.id.toString().padStart(2,'0') }
                     agentId={ agent.id.toString().padStart(2,'0') }
                     agentName={ agent.name }       
                   />
