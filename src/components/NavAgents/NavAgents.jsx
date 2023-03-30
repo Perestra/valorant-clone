@@ -25,7 +25,7 @@ const NavAgents = ({ agents }) => {
                 <SwiperSlide key={ agent.id.toString().padStart(2,'0') }>
                   <MenuAgents
                     agentId={ agent.id.toString().padStart(2,'0') }
-                    agentName={ agent.name }       
+                    agentName={ agent.name }  
                   />
                 </SwiperSlide>
             )}

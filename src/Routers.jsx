@@ -10,7 +10,7 @@ import Sobre from 'pages/Sobre/Sobre'
 import Agents from 'pages/Agents/Agents'
 import Agent from 'pages/Agent/Agent'
 import Maps from 'pages/Maps/Maps'
-import Armas from 'pages/Armas/Armas'
+import Arsenal from 'pages/Arsenal/Arsenal'
 
 const Routers = () => {
   return (
@@ -22,7 +22,7 @@ const Routers = () => {
         <Route path='/agentes' element={ <Agents /> } />
         <Route path='/agentes/:agent' element={ <Agent /> }/>
         <Route path='/mapas'   element={ <Maps /> } />
-        <Route path='/armas'   element={ <Armas /> } />
+        <Route path='/armas'   element={ <Arsenal /> } />
       </Routes>
       <Footer />
     </BrowserRouter>

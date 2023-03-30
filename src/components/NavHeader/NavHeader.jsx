@@ -10,7 +10,7 @@ const NavHeader = () => {
                 <MenuHeader title='sobre' to='sobre' />
                 <MenuHeader title='agentes' to='agentes' />
                 <MenuHeader title='mapas' to='mapas' />
-                <MenuHeader title='armas' to='armas' />
+                <MenuHeader title='arsenal' to='arsenal' />
             </ul>
         </nav>
     )
