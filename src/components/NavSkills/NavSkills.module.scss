@@ -1,0 +1,18 @@
+
+.nav {
+    width: 100%;
+    max-width: 585px;
+    height: 73px;
+
+    &__listContainer  {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        list-style: none;
+        column-gap: 35px;
+    }
+}
