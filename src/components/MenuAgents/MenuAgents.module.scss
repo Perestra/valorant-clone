@@ -1,26 +1,39 @@
 .list {
+    width: 445px;
+    height: 115px;
+    height: auto;
+
     list-style: none;
 
     &__agent {
         width: 100%;
-        height: 115px;
+        height: auto;
         overflow: hidden;
        
         display: flex;
-        column-gap: 20px;
-    
-        &__text {
-            font-size: 14px;
-            font-weight: 500;
+        column-gap: 15px;
 
-            margin-top: 30px;
+        text-decoration: none;
+        color: #ECE8E1;
+
+        &__text {
+            font-size: 15px;
+            font-weight: 700;
+            margin-top: 28px;
         }
         &__title {
+            font-family: 'Anton', sans-serif;
             font-size: 95px;
+            font-weight: 400;
+
+            cursor: pointer;
+            text-transform: uppercase;
+            
             transition: all ease-in-out 0.15s;
+
+            &:hover {
+                margin-left: 8px;
+            }
         }
-    }
-    &__agent:hover .list__agent__title {
-        margin-left: 8px;
     }
 }

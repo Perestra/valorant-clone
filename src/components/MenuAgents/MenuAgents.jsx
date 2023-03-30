@@ -2,19 +2,26 @@ import React from 'react'
 import styles from './MenuAgents.module.scss'
 
 import { NavLink } from 'react-router-dom'
-import Title from 'components/Title/Title'
-import Text from 'components/Text/Text'
 
-const MenuAgents = ({ agentId, agentName  }) => {
+const MenuAgents = ({ agentId, agentName }) => {
+
+  const activeStyle = {
+    color: '#FF4655'
+  }
+
   return (
-    <li key={ agentId } className={ styles.list } >
-        <NavLink
-            to= {`/agentes/${agentName}`}
-            className={ styles.list__agent } 
-        >
-            <Text className={ styles.list__agent__text } text={ agentId } color='white'/>
-            <Title className={ styles.list__agent__title } text={ agentName } color='white'/>
-        </NavLink>
+    <li 
+      key={ agentId } 
+      className={ styles.list } 
+    >
+      <NavLink
+        to= {`/agentes/${agentName.toLowerCase()}`}
+        className={ styles.list__agent } 
+        style={({ isActive }) => isActive ? activeStyle : undefined}
+      >
+        <p className={ styles.list__agent__text  } >{ agentId }</p>
+        <h1 className={ styles.list__agent__title } >{ agentName }</h1>
+      </NavLink>
     </li>
    
   )
