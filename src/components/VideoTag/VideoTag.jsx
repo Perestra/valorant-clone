@@ -9,11 +9,8 @@ const VideoTag = ({ className, poster, src }) => {
       muted 
       loop 
       poster={ poster }
+      src={ src } 
     >
-      <source 
-        src={ src } 
-        type='video/mp4'
-      />
     </video>
   )
 }
