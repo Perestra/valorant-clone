@@ -7,7 +7,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Home from 'pages/Home/Home'
 import Sobre from 'pages/Sobre/Sobre'
-import Agentes from 'pages/Agentes/Agentes'
+import Agents from 'pages/Agents/Agents'
+import Agent from 'pages/Agent/Agent'
 import Maps from 'pages/Maps/Maps'
 import Armas from 'pages/Armas/Armas'
 
@@ -18,7 +19,8 @@ const Routers = () => {
       <Routes>
         <Route index element={ <Home /> }/>
         <Route path='/sobre'   element={ <Sobre /> } />
-        <Route path='/agentes' element={ <Agentes /> } />
+        <Route path='/agentes' element={ <Agents /> } />
+        <Route path='/agentes/:agent' element={ <Agent /> }/>
         <Route path='/mapas'   element={ <Maps /> } />
         <Route path='/armas'   element={ <Armas /> } />
       </Routes>
