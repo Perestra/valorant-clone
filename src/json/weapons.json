@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "name": "Classic.",
+        "type": "Armas leves",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt25bf56ede3e3c57c/5eb281c42278aa3e8d0ba7fa/classic.png",
+        "summary": "Leve e versátil, a arma padrão é um clássico inegável",
+        "description": [
+            {
+                "first": "Seu modo primário faz disparos precisos quando o jogador está parado. Além disso, ela vem equipada com um modo alternativo de rajadas para combates de curta distância."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Shorty.",
+        "type": "Armas leves",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt7b13117b3a4912a7/5eb281ca5e05b51483afd6bc/shorty.png",
+        "summary": "Surpreenda seus inimigos bem de perto para obter o máximo de eficiência.",
+        "description": [
+            {
+                "first": "Uma escopeta rápida de cano curto e altamente letal a curta distância, mas que dispara apenas dois tiros antes de precisar recarregar. Combina bem com armas de longa distância."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Frenzy.",
+        "type": "Armas leves",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt97e5c377459c2f3b/5eb281c43b09c042ddca13a1/frenzy.png",
+        "summary": "A curta distância, dedo no gatilho! A longa distância... é melhor procurar outra arma.",
+        "description": [
+            {
+                "first": "Frenzy é uma metralhadora de mão leve e excelente para usar em movimento. Sua alta cadência de tiro pode ser difícil de controlar, então tente disparar rajadas curtas a distâncias intermediárias."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Ghost.",
+        "type": "Armas leves",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltc4788d390015fb7c/5eb281c4105ab84c3815e164/ghost.png",
+        "summary": "Elegante, silenciosa e eficiente ao disparar de qualquer distância.",
+        "description": [
+            {
+                "first": "Ghost é uma arma precisa que conta com um grande carregador, o que ajuda a compensar qualquer erro seu. Para acertar alvos distantes, é preciso manter a cadência de tiro controlada. E para acertar alvos de perto, pode sentar o dedo no gatilho."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Sheriff.",
+        "type": "Armas leves",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3bbed29a5475c7d4/5eb281ca2278aa3e8d0ba7fe/sheriff.png",
+        "summary": "Sheriff é um revólver moderno feito para quem busca tiros certeiros na cabeça do inimigo.",
+        "description": [
+            {
+                "first": "Seus projéteis de alto impacto provocam bastante recuo, então é preciso ter pulso firme.",
+                "second": "Quando você domina esta arma, seus inimigos logo percebem que nunca tiveram chance."
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Stinger.",
+        "type": "Submetralhadoras",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt55951cb43513b87d/5eb7c2209c5d3e37e05f27b6/stinger.png",
+        "summary": "Os inimigos sabem que o fim chegou quando sentem o disparo da Stinger.",
+        "description": [
+            {
+                "first": "Esta submetralhadora tem mais potência a médias e longas distâncias, à custa da cadência de tiro e mobilidade.",
+                "second": "Seu carregador de 20 projéteis é contrabalançado por sprays que provocam bastante recuo. Em compensação, esta arma dispara tiros letais a distâncias intermediárias com a ajuda da mira e de fogo controlado."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Spectre.",
+        "type": "Submetralhadoras",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt8a6f9eb97f755412/5eb281cae11e6a13a6f613ed/spectre.png",
+        "summary": "Bateu a dúvida? Vai de Spectre que tudo dá certo.",
+        "description": [
+            {
+                "first": "Spectre é uma arma faz-tudo com ótimo equilíbrio entre dano, cadência de tiro e precisão - tudo isso a distâncias curtas e intermediárias.",
+                "second": "Ela assombra as esquinas de todo mapa e requer apenas uma mira estável para acabar com os inimigos a longa distância."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Bucky.",
+        "type": "Escopetas",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt2cd5308e8bdfcc8c/5eb281c334a9963e8f9599de/bucky.png",
+        "summary": "Atacante? Defensor? Tanto faz. O importante é ter uma escopeta dessas em mãos.",
+        "description": [
+            {
+                "first": "Pesada, porém estável, Bucky tem um modo primário que serve para segurar avanços em esquinas acirradas ou ajudar na investida em áreas pequenas."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Judge.",
+        "type": "Escopetas",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt82404f7b88f8c612/5eb281c45050514d1a507146/judge.png",
+        "summary": "Judge é uma escopeta automática de tiro rápido que causa muito dano constante.",
+        "description": [
+            {
+                "first": "Ela é estável com seus tiros normais, mas se torna volátil em disparos rápidos.",
+                "second": "Seu modo primário acaba com os alvos a curta distância, mas você precisará de uma mira estável para acertar qualquer coisa que esteja além do alcance do seu braço."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Bulldog.",
+        "type": "Fuzis",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd4a396bf5a06e6b4/5eb281c4edfeb076e2050387/bulldog.png",
+        "summary": "Bulldog é o tipo de arma que traz satisfação ao conseguir um abate.",
+        "description": [
+            {
+                "first": "Este fuzil pode se tornar uma verdadeira máquina mortífera. Seu modo secundário permite que o atirador use a mira e descarregue rajadas curtas e precisas em qualquer um que se aproximar a distâncias intermediárias a longas."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Guardian.",
+        "type": "Fuzis",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltd78ee0533f30e0a8/5eb281c4402b8b4d13a566dc/guardian.png",
+        "summary": "Esta arma dá um show nas mãos de atiradores pacientes.",
+        "description": [
+            {
+                "first": "Por ser um fuzil estilo DMR, Guardian é mais pesado e oferece menos mobilidade do que outros fuzis, mas seus disparos são precisos e poderosos. Saia caçando inimigos a distâncias longas e intermediárias."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Phantom.",
+        "type": "Fuzis",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt04ac3b5158b8466a/5eb281caa44a154c3ef84a82/phantom.png",
+        "summary": "Phantom é uma arma equilibrada, projetada para disparar tiros estáveis que alcançam longas distâncias.",
+        "description": [
+            {
+                "first": "Aproveite a automação desta arma para atingir qualquer um que tente se aproximar. Lance rajadas curtas e controladas para dispersar inimigos em qualquer lugar. Phantom tem um desempenho melhor quando o atirador está parado."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Vandal.",
+        "type": "Fuzis",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt323df4a0d8210605/5eb281cb3b09c042ddca13a5/vandal.png",
+        "summary": "Este fuzil extremamente potente causa um enorme estrago com pequenas rajadas de balas.",
+        "description": [
+            {
+                "first": "Em compensação, se disparar por muito tempo, sua estabilidade é prejudicada. Vandal concede bastante dano a longa distância e recompensa aqueles que focam em um único tiro certeiro na cabeça do alvo."
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Marshal.",
+        "type": "Fuzis de precisão",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt545be89167b88e87/5eb281c4c7007e13a0530dd7/marshal.png",
+        "summary": "Escolha um ângulo bom, mire, e o alvo se arrependerá de ter dobrado aquela esquina.",
+        "description": [
+            {
+                "first": "Marshal é um fuzil de precisão ágil e de zoom único que consegue manter longe aqueles inimigos insistentes. Devido à cadência mais lenta, você precisará acertar seus disparos ou ficará vulnerável a ataques."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Operator.",
+        "type": "Fuzis de precisão",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt3e6bf41bd01ca11e/5eb281ca24400043b65016ba/operator.png",
+        "summary": "Aconchegue-se em um lugar e será capaz de controlar áreas importantes.",
+        "description": [
+            {
+                "first": "Operator é um fuzil de precisão intenso com zoom duplo altamente eficiente. Esta arma tem um desempenho péssimo em movimento, mas dispara projéteis absurdamente poderosos que podem devastar uma equipe inteira com um só tiro."
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Ares.",
+        "type": "Metralhadoras",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt371bee690082f494/5eb281c3e11e6a13a6f613e9/ares.png",
+        "summary": "Não subestime o poder desta arma.",
+        "description": [
+            {
+                "first": "Ares conta com um carregador enorme e se destaca em fogo de supressão ou causando muito dano a grupos concentrados de inimigos."
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Odin.",
+        "type": "Metralhadoras",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt0884ed7405d3646c/5eb281c38f7a7c3f6ec725e1/odin.png",
+        "summary": "Ao empunhar uma arma grandiosa como esta, uma coisa é certa: quem a possui ascenderá à glória enquanto o oponente cai em ruína.",
+        "description": [
+            {
+                "first": "Odin conta com disparos que causam bastante dano e anulam ataques com uma estabilidade surpreendente. Use sprays contra inimigos a curta distância e troque para o modo secundário para se tornar uma torreta ambulante."
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Faca tática.",
+        "type": "Confronto",
+        "image": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt133c8372261f21a9/5eb281cbedfeb076e205038b/tactical-knife.png",
+        "summary": "Para uma solução mais íntima.",
+        "description": [
+            {
+                "first": "Quando você ficar sem balas ou estiver em dúvida sobre o que fazer, dê uma facada no adversário. Com esta faca, você poderá correr mais rápido, destruir objetos mais depressa e acertar seus inimigos de uma vez só bem nas costas com o modo secundário."
+            }
+        ]
+    }
+]
