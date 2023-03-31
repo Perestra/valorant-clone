@@ -6,16 +6,16 @@ import MenuWeapon from 'components/MenuWeapon/MenuWeapon'
 const NavWeapons = ({ weapons }) => {
   return (
     <nav className={ styles }>
-        <ul className={ styles }>
-            {weapons.map(weapon => 
-                <MenuWeapon 
-                    key={ weapon.id }
-                    title={ weapon.name }
-                    text={ weapon.summary }
-                    img={ weapon.image }
-                />
-            )}
-        </ul>
+      <ul className={ styles }>
+        {weapons.map(weapon => 
+          <MenuWeapon 
+            key={ weapon.id }
+            title={ weapon.name }
+            text={ weapon.summary }
+            img={ weapon.image }
+          />
+        )}
+      </ul>
     </nav>
   )
 }
