@@ -1,0 +1,32 @@
+
+
+.main {
+    width: 100%;
+    height: auto;
+
+    background-color: #ECE8E1;
+    overflow: auto;
+
+    &__section {
+        width: 100%;
+        max-width: 1280px;
+        height: auto;
+        margin: 80px auto;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    &__select {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__title {
+        font-size: 105px;
+    }
+}

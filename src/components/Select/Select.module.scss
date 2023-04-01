@@ -1,1 +1,28 @@
 
+
+.select {
+    width: 100%;
+    max-width: 250px;
+    height: 60px;
+
+    padding-left: 10px;
+
+    border: 1px solid #0f192356;
+    outline: none;
+    cursor: pointer;
+    background-color: #ECE8E1;
+
+    
+    font-size: 14px;
+    font-weight: 700;
+    color: #0f1923;
+    text-transform: uppercase;
+
+    &__option {
+        width: 100%;
+        height: auto;  
+
+        font-weight: 500;
+        color: #0f1923;
+    }
+}

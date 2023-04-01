@@ -5,8 +5,8 @@ import MenuWeapon from 'components/MenuWeapon/MenuWeapon'
 
 const NavWeapons = ({ weapons }) => {
   return (
-    <nav className={ styles }>
-      <ul className={ styles }>
+    <nav className={ styles.nav }>
+      <ul className={ styles.nav__container }>
         {weapons.map(weapon => 
           <MenuWeapon 
             key={ weapon.id }

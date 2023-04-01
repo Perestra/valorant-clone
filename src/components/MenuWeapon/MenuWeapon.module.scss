@@ -1,0 +1,36 @@
+
+
+.list {
+    width: 50%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 30px 50px;
+    border-bottom: 1px solid #0000002d;
+    border-right: 1px solid #0000002d;
+
+    &__weapon {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 30px;
+    }
+
+    &__title {
+        font-size: 70px;
+    }
+    &__image {
+        width: 100%;
+        height: auto;
+
+        object-fit: cover;
+    }
+    &__summary {
+        font-size: 14px;
+    }
+}

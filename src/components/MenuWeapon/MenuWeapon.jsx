@@ -7,20 +7,20 @@ import Text from 'components/Text/Text'
 
 const MenuWeapon = ({ title, img, text }) => {
   return (
-    <li className={styles}>
-        <div className={styles}>
+    <li className={styles.list}>
+        <div className={styles.list__weapon}>
             <Title 
-                className={styles}
+                className={styles.list__title}
                 text={ title }
                 color='blue'
             />
             <ImgTag 
-                className={styles}
+                className={styles.list__image}
                 src={ img }
                 alt={title}
             />
             <Text 
-                className={styles}
+                className={styles.list__summary}
                 text={ text }
                 color='green'
             />
