@@ -13,6 +13,8 @@ const NavWeapons = ({ weapons }) => {
             title={ weapon.name }
             text={ weapon.summary }
             img={ weapon.image }
+            type={ weapon.type }
+            weapons={ weapons }
           />
         )}
       </ul>

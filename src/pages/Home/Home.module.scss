@@ -7,19 +7,47 @@
     &__container {
         width: 100%;
         height: 600px;
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
         background-image: url(../../assets/images/home/bg-home.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
         row-gap: 30px;
         padding: 0 10px;
+
+        @media screen and (max-width: 540px) {
+            max-height: 300px;
+            row-gap: 15px;
+
+            justify-content: space-around;            
+        }
+
+        &__text {
+            font-size: 16px;
+
+            @media screen and (max-width: 540px) {
+                font-size: 12px;
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        row-gap: 15px;
+
+        @media screen and (max-width: 540px) {
+            flex-direction: column-reverse;
+        }
     }
 
 
@@ -29,21 +57,51 @@
     }
 
     &__agents__section {
+        width: 100%;
+        height: auto;
+
         display: flex;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
 
         column-gap: 50px;
+
         background-color: #FF4655;
-        overflow: auto;
+        overflow: hidden;
+
+        @media screen and (max-width: 1024px) {
+            flex-direction: column-reverse;
+        }
+
+        @media screen and (max-width: 540px) {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            
+            flex-direction: column-reverse;
+        }
     }
       
     &__ReynaRaize {
         width: 100%;
         max-width: 35%;
+
+        @media screen and (max-width: 1024px) {
+            
+            max-width: 400px;
+        }
+
+        @media screen and (max-width: 540px) {
+            position: absolute;
+            top: 300px;
+            
+            max-width: 325px;
+        }
     }
 
     &__maps__section {
+        position: relative;
+        
         background-image: url(../../assets/images/home/bg-home-maps.png);
         background-position: center;
         background-size: cover;
@@ -55,20 +113,48 @@
 .logo_name {
     width: 100%;
     max-width: 700px;
+
+    @media screen and (max-width: 540px) {
+        max-width: 70%;
+    }
 }
 .about__description_container, .agents__description_container, .maps__description_container {
     width: 100%;
     height: auto;
 
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 
     column-gap: 50px;
     margin-top: 70px;
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+        flex-direction: column;
+        
+        row-gap: 30px;
+        margin-top: 30px;
+    }
+
+    @media screen and (max-width: 540px) {
+        width: 100%;
+        flex-direction: column;
+        
+        row-gap: 30px;
+        margin-top: 30px;
+    }
 }
+
+.agents__description_container {
+    @media screen and (max-width: 540px) {
+        height: 470px;
+    }
+}
+
 .about__video {
     width: 100%;
     max-width: 705px;
-    height: 396px;
+    height: auto;
 }
+
+

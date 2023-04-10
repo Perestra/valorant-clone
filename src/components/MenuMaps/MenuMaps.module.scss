@@ -38,11 +38,19 @@
             transform: rotate(-90deg);
 
             letter-spacing: 1px;
+
+            @media screen and (max-width: 540px) {
+                font-size: 16px;
+            }
         }
         
         &__name {
             font-size: 19px;
             font-weight: 700;
+
+            @media screen and (max-width: 540px) {
+                font-size: 16px;
+            }
         }
         
         &__description {
@@ -57,5 +65,9 @@
         row-gap: 10px;
 
         padding: 20px 30px 35px 35px;
+
+        @media screen and (max-width: 540px) {
+            padding: 20px 30px 35px 35px;
+        }
     }
 }

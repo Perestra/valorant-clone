@@ -8,6 +8,15 @@
     display: flex;
 
     padding: 12px 0;
+    z-index: 999;
+
+    @media screen and (max-width: 1024px) {
+        position: relative;
+    }
+
+    @media screen and (max-width: 540px) {
+        position: relative;
+    }
 
     &__container {
         width: 100%;
@@ -28,6 +37,41 @@
         align-items: center;
 
         column-gap: 20px;
+    }
+
+    &__menu {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @media screen and (max-width: 1024px) {
+            position: absolute;
+            top: 60px;
+            left: 0;
+            
+            flex-direction: column-reverse;
+            row-gap: 50px;
+            padding: 50px 0;
+
+            background-color: #111;
+            display: none;
+        }
+
+        @media screen and (max-width: 540px) {
+            position: absolute;
+            top: 60px;
+            left: 0;
+            
+            flex-direction: column-reverse;
+            row-gap: 50px;
+            padding: 50px 0;
+
+            background-color: #111;
+            display: none;
+        }
     }
 
     &__profile {
@@ -55,11 +99,6 @@
             font-weight: 600;
             color: #FFF;
             text-transform: uppercase;
-        }
-        &__icon {
-            width: 30px;
-            height: 30px;
-            color: #FFF;
         }
     }
 }

@@ -13,12 +13,26 @@
 
         position: relative;
         margin: 70px auto 100px;
+        padding: 0 10px;
+
+        @media screen and (max-width: 1024px) {
+            height: 600px;
+            margin: 50px 0;
+        }
 
         &__title {
             position: absolute;
 
             font-size: 120px;
             z-index: 2;
+
+            @media screen and (max-width: 1024px) {
+                font-size: 75px;
+            }
+
+            @media screen and (max-width: 540px) {
+                font-size: 35px;
+            }
         }
 
     }

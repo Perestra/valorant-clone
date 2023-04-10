@@ -14,11 +14,14 @@ const Home = () => {
   return (
     <main className={ styles.home }>
       <section className={ styles.home__container }>
-        <Text 
-          text= 'Um jogo de tiro tático 5x5 com personagens originais'
-          color= 'white'
-        />
-        <ValorantText className={styles.logo_name}/>
+        <div className={ styles.home__content }>
+          <Text 
+            className={styles.home__container__text}
+            text= 'Um jogo de tiro tático 5x5 com personagens originais'
+            color= 'white'
+          />
+          <ValorantText className={styles.logo_name}/>
+        </div>
         <Button type='button' value='Jogue Grátis' title='Jogue Grátis' color= 'red'/>
       </section>
       <section className={ styles.home__about__section }>
@@ -47,7 +50,7 @@ const Home = () => {
           video={ <VideoTag 
             className={ styles.about__video } 
             src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltefd45731d8f9d9df/6217f2ea910a6c613c73168c/VALORANT_PLAY22_16x9_Target4_v005.mp4" 
-            /> }
+          /> }
       />
       </section>
       <section className={ styles.home__agents__section }>

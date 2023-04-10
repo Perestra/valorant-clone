@@ -25,8 +25,10 @@ const ItemDescription = ({
         <Title className={ styles.item__title } text={ titleText } color={ titleColor }/>
         <div className={ descpritClass }>
           <div className={ styles.item__description }>
-            <SubTitle className={ styles.item__subtitle } text={ subTitle } color={ subTitleColor } />
-            <Text className={ styles.item__text } text={ text } color={ textColor } />
+            <div className={ styles.item__content }>
+              <SubTitle className={ styles.item__subtitle } text={ subTitle } color={ subTitleColor } />
+              <Text className={ styles.item__text } text={ text } color={ textColor } />
+            </div>
             <Button type={ typeBtn } title={ titleBtn } value={ valueBtn } color={ btnColor } onClick={ () => navigate(page) } />
           </div>
           { video }

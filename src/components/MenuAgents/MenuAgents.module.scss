@@ -1,9 +1,18 @@
 .list {
     width: 445px;
-    height: 115px;
-    height: auto;
+    height: 110px;
 
     list-style: none;
+
+    @media screen and (max-width: 1024px) {
+        width: 360px;
+        height: 100px;
+    }
+
+    @media screen and (max-width: 540px) {
+        width: 180px;
+        height: 50px;
+    }
 
     &__agent {
         width: 100%;
@@ -16,10 +25,27 @@
         text-decoration: none;
         color: #ECE8E1;
 
+        @media screen and (max-width: 1024px) {
+            column-gap: 10px;
+        }
+
+        @media screen and (max-width: 540px) {
+            column-gap: 8px;
+        }
+
         &__text {
-            font-size: 15px;
+            font-size: 16px;
             font-weight: 700;
             margin-top: 28px;
+
+            @media screen and (max-width: 1024px) {
+                margin-top: 20px;
+            }
+
+            @media screen and (max-width: 540px) {
+                margin-top: 8px;
+                font-size: 12px;
+            }
         }
         &__title {
             font-family: 'Anton', sans-serif;
@@ -30,6 +56,14 @@
             text-transform: uppercase;
             
             transition: all ease-in-out 0.15s;
+
+            @media screen and (max-width: 1024px) {
+                font-size: 75px;
+            }
+
+            @media screen and (max-width: 540px) {
+                font-size: 35px;
+            }
 
             &:hover {
                 margin-left: 8px;

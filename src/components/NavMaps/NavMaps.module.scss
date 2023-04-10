@@ -7,8 +7,17 @@
     position: absolute;
     bottom: 0;
 
+    @media screen and (max-width: 1024px) {
+        width: 95%;
+        top: 45px;
+    }
+
     &__maps {
         width: 980px;
         height: 552px;
+
+        @media screen and (max-width: 1024px) {
+            width: 100%;
+        }
     }
 }

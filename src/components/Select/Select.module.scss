@@ -18,6 +18,11 @@
     color: #0f1923;
     text-transform: uppercase;
 
+    @media screen and (max-width: 1024px) {
+        width: 200px;
+        height: 50px;
+    }
+
     &__option {
         width: 100%;
         height: auto;  

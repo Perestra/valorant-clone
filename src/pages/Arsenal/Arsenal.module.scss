@@ -16,6 +16,12 @@
         display: flex;
         flex-direction: column;
         row-gap: 40px;
+
+        padding: 0 10px;
+
+        @media screen and (max-width: 1024px) {
+            margin: 35px auto;
+        }
     }
 
     &__select {
@@ -28,5 +34,13 @@
 
     &__title {
         font-size: 105px;
+
+        @media screen and (max-width: 1024px) {
+            font-size: 75px;
+        }
+
+        @media screen and (max-width: 540px) {
+            font-size: 35px;
+        }
     }
 }

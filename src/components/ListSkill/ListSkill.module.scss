@@ -10,7 +10,14 @@
     align-items: center;
 
     border: 1px solid #0F1923;
+    border-radius: 15px;
     cursor: pointer;
+
+    @media screen and (max-width: 540px) {
+        max-width: 60px;
+        height: 60px;
+        border-radius: 10px;
+    }
 
     &__icon {
         width: 100%;
@@ -18,6 +25,11 @@
         height: 43px;
 
         margin: 12px;
+
+        @media screen and (max-width: 540px) {
+            max-width: 30px;
+            height: 30px;
+        }
     }
 }
 

@@ -3,7 +3,6 @@ import styles from './Header.module.scss'
 
 import { ReactComponent as ValorantLogo } from 'assets/svg/valorant-logo.svg';
 import { ReactComponent as RiotLogo } from 'assets/svg/riot-games-logo.svg';
-import { RiArrowDropDownLine } from 'react-icons/ri'
 
 import ImgTag from 'components/ImgTag/ImgTag';
 import NavHeader from 'components/NavHeader/NavHeader';
@@ -19,18 +18,20 @@ const Header = () => {
           <div className={ styles.slash }></div>
           <ValorantLogo />
         </div>
-        <NavHeader />
-        <div className={styles.header__profile}>
-          <ImgTag 
-            src={ perfil } 
-            alt='Foto do Danilo segurando um shape de skate com a mão direita e com uma medalha de ouro no pescoço'
-            className={ styles.header__img }
-          />
-          <div className={styles.header__username}>
-            <span>DaniloPS</span>
-            <RiArrowDropDownLine className={ styles.header__username__icon } />
+        <div className={ styles.header__menu }>
+          <NavHeader />
+          <div className={styles.header__profile}>
+            <ImgTag 
+              src={ perfil } 
+              alt='Foto do Danilo segurando um shape de skate com a mão direita e com uma medalha de ouro no pescoço'
+              className={ styles.header__img }
+            />
+            <div className={styles.header__username}>
+              <span>DaniloPS</span>
+            </div>
           </div>
         </div>
+        
       </div>
     </header>
   )

@@ -18,7 +18,7 @@ const Agent = () => {
     const agent = agents.find(agent => {
         return agent.name.toLowerCase() === rote.agent
     })
-
+    
     const createHability = useCallback(position => {
         const { name, slot, video, description } = agent.skills[position] 
         return { name, slot, video, description }
@@ -74,30 +74,35 @@ const Agent = () => {
         </section>
         <section className={ styles.main__habilities }>
             <div className={ styles.main__habilities__container }>
-                <div className={ styles.main__habilities__content }>
-                    <Title 
-                        className={ styles.main__habilities__title } 
-                        text='Habilidades especiais' 
-                        color='blue' 
-                    />
-                    <NavSkills agent={ agent } setHability={ index => setHabilities(createHability(index)) } />
-                    <div className={ styles.main__habilities__items }>
-                        <SubTitle 
-                            className={ styles.main__habilities__name }
-                            text={ `${ habilities.slot } - ${ habilities.name }` }
-                            color='green'
-                        />
-                        <Text 
-                            className={ styles.main__habilities__description } 
-                            text={ habilities.description }
-                            color='green'
-                        />
-                    </div>
-                </div>
-                <VideoTag 
-                    className={ styles.main__habilities__video }
-                    src={ habilities.video }
+                <Title 
+                    className={ styles.main__habilities__title } 
+                    text='Habilidades especiais' 
+                    color='blue' 
                 />
+                <div className={ styles.main__habilities__content }>
+                    <div className={ styles.main__habilities__items }>
+                        <NavSkills 
+                            agent={ agent } 
+                            setHability={ index => setHabilities(createHability(index)) } 
+                        />
+                        <div className={ styles.main__habilities__texts }>
+                            <SubTitle 
+                                className={ styles.main__habilities__name }
+                                text={ `${ habilities.slot } - ${ habilities.name }` }
+                                color='green'
+                            />
+                            <Text 
+                                className={ styles.main__habilities__description } 
+                                text={ habilities.description }
+                                color='green'
+                            />
+                        </div>
+                    </div>
+                    <VideoTag 
+                        className={ styles.main__habilities__video }
+                        src={ habilities.video }
+                    />
+                </div>
             </div>
         </section>
     </main>

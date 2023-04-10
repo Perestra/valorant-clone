@@ -6,6 +6,8 @@
 
     background-color: #111;
 
+    text-align: center;
+
     &__texts {
         width: 100%;
         height: auto;
@@ -18,12 +20,21 @@
 
         background-color: #292929;
 
+        @media screen and (max-width:1125px) {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+
         & > p {
-            font-size: 0.9rem;
+            font-size: 16px;
             font-weight: 600;
             color: #FFF;
             text-transform: uppercase;
             cursor: pointer;
+
+            @media screen and (max-width:1125px) {
+                font-size: 12px;
+            }
         }
     }
 
@@ -98,12 +109,21 @@
         align-items: center;
         column-gap: 50px;
 
+        @media screen and (max-width:1125px) {
+            flex-direction: column;
+            row-gap: 20px;
+        }
+
         & > p {
-            font-size: 0.9rem;
+            font-size: 16px;
             font-weight: 600;
             color: #FFF;
             text-transform: uppercase;
             cursor: pointer;
+
+            @media screen and (max-width:1125px) {
+                font-size: 12px
+            }
         }
     }
 
