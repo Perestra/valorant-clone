@@ -18,6 +18,10 @@ const ItemDescription = ({
   page }) => {
 
   const navigate = useNavigate()
+  const btnOnClick = page => {
+    navigate(page)
+    window.scrollTo(0, 0)
+  }
 
   return (
     <div className={ styles.item }>
@@ -29,7 +33,7 @@ const ItemDescription = ({
               <SubTitle className={ styles.item__subtitle } text={ subTitle } color={ subTitleColor } />
               <Text className={ styles.item__text } text={ text } color={ textColor } />
             </div>
-            <Button type={ typeBtn } title={ titleBtn } value={ valueBtn } color={ btnColor } onClick={ () => navigate(page) } />
+            <Button type={ typeBtn } title={ titleBtn } value={ valueBtn } color={ btnColor } onClick={ () => btnOnClick(page) } />
           </div>
           { video }
         </div>
