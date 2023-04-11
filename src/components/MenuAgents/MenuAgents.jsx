@@ -15,12 +15,12 @@ const MenuAgents = ({ agentId, agentName }) => {
       className={ styles.list } 
     >
       <NavLink
-        to= {`/agentes/${agentName.toLowerCase()}`}
+        to= {`/agentes/${agentName.includes("/")? agentName.replace("/", "-").toLowerCase() : agentName.toLowerCase()}`} 
         className={ styles.list__agent } 
         style={({ isActive }) => isActive ? activeStyle : undefined}
       >
         <p className={ styles.list__agent__text  } >{ agentId }</p>
-        <h1 className={ styles.list__agent__title } >{ agentName }</h1>
+        <h1 className={ styles.list__agent__title } >{ agentName }</h1> 
       </NavLink>
     </li>
    

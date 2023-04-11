@@ -12,11 +12,13 @@ import Text from 'components/Text/Text'
 import SubTitle from 'components/SubTitle/SubTitle'
 import NavSkills from 'components/NavSkills/NavSkills'
 
+const verifySlash = name => name.includes("/")? name.replace("/", "-").toLowerCase() : name.toLowerCase()
+
 const Agent = () => {
 
     const rote = useParams()
     const agent = agents.find(agent => {
-        return agent.name.toLowerCase() === rote.agent
+        return verifySlash(agent.name) === verifySlash(rote.agent) 
     })
     
     const createHability = useCallback(position => {

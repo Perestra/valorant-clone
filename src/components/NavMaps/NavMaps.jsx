@@ -2,9 +2,10 @@ import React from 'react'
 import styles from './NavMaps.module.scss'
 import "swiper/scss";
 import "swiper/scss/pagination"
+import "swiper/css/navigation"
 
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 
 import MenuMaps from 'components/MenuMaps/MenuMaps'
 
@@ -16,10 +17,11 @@ const NavMaps = ({ maps }) => {
                 spaceBetween={100}
                 loop={true}
                 grabCursor={true}
+                navigation={true}
                 pagination={{
                     dynamicBullets: true,
                 }}
-                modules={[Pagination]}
+                modules={[Pagination, Navigation]}
                 className= { styles.nav__maps }
             >
                 { maps.map(map => 
