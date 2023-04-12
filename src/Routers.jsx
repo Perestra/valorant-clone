@@ -11,6 +11,7 @@ import Agents from 'pages/Agents/Agents'
 import Agent from 'pages/Agent/Agent'
 import Maps from 'pages/Maps/Maps'
 import Arsenal from 'pages/Arsenal/Arsenal'
+import NotFound from 'pages/NotFound/NotFound'
 
 const Routers = () => {
   return (
@@ -23,6 +24,7 @@ const Routers = () => {
         <Route path='/agentes/:agent' element={ <Agent /> }/>
         <Route path='/mapas'   element={ <Maps /> } />
         <Route path='/arsenal'   element={ <Arsenal /> } />
+        <Route path='*' element={ <NotFound /> } />
       </Routes>
       <Footer />
     </BrowserRouter>
