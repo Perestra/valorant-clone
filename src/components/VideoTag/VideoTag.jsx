@@ -6,11 +6,9 @@ const VideoTag = ({ className, poster, src }) => {
       className={ className } 
       autoPlay 
       preload="true" 
-      defaultMuted 
       muted 
       loop 
       playsinline
-
       poster={ poster }
       src={ src } 
     >
