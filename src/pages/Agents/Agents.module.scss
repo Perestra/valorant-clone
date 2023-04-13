@@ -54,6 +54,10 @@
         align-items: center;
         margin: auto;
 
+        @media screen and (max-width: 1660px) {
+            max-width: 100%;
+        }
+
         @media screen and (max-width: 1024px) {
             max-width: 100%;
 

@@ -13,12 +13,9 @@
 
         @media screen and (max-width: 1024px) {
             flex-direction: column;
-            row-gap: 30px;
-        }
+            row-gap: 60px;
 
-        @media screen and (max-width: 540px) {
-            flex-direction: column;
-            row-gap: 30px;
+            align-items: center;
         }
     }
 }

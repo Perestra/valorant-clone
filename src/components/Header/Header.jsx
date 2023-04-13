@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Header.module.scss'
 
 import { ReactComponent as ValorantLogo } from 'assets/svg/valorant-logo.svg';
 import { ReactComponent as RiotLogo } from 'assets/svg/riot-games-logo.svg';
+import { IoIosMenu, IoMdClose } from 'react-icons/io'
 
 import ImgTag from 'components/ImgTag/ImgTag';
 import NavHeader from 'components/NavHeader/NavHeader';
@@ -10,6 +11,24 @@ import NavHeader from 'components/NavHeader/NavHeader';
 import perfil from 'assets/images/perfil.jpg'
 
 const Header = () => {
+
+  const [mobile, setMobile] = useState('')
+  const [icon, setIcon] = useState(true)
+
+  const showMenu = () => {
+    setMobile('active')
+    setIcon(false)
+    window.scrollTo(0,0)
+    window.document.body.classList.add('scroll-lock')
+  }
+
+  const hideMenu = () => {
+    setMobile('')
+    setIcon(true)
+    window.scrollTo(0,0)
+    window.document.body.classList.remove('scroll-lock')
+  }
+
   return (
     <header className={styles.header}>
       <div className={ styles.header__container }>
@@ -18,8 +37,12 @@ const Header = () => {
           <div className={ styles.slash }></div>
           <ValorantLogo />
         </div>
-        <div className={ styles.header__menu }>
-          <NavHeader />
+        {icon? 
+          <IoIosMenu className={ styles.header__barIcon } onClick={ () => showMenu() } />
+          : <IoMdClose className={ styles.header__closeIcon } onClick={ () => hideMenu() }/>
+        }
+        <div className={ `${styles.header__menu} ${styles[mobile]}` }>
+          <NavHeader onClick={ hideMenu }/>
           <div className={styles.header__profile}>
             <ImgTag 
               src={ perfil } 
@@ -31,7 +54,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </header>
   )

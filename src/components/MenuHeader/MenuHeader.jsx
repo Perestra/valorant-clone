@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styles from './MenuHeader.module.scss'
 
-const MenuHeader = ({ to, title }) => {
+const MenuHeader = ({ to, title, onClick }) => {
   
   const activeStyle = {
     color: '#FF4655',
@@ -17,6 +17,7 @@ const MenuHeader = ({ to, title }) => {
         to={ to } 
         className={ styles.list__navLink } 
         style={({ isActive }) => isActive ? activeStyle : undefined}
+        onClick={ () => onClick() }
       >
         {title}
       </NavLink>

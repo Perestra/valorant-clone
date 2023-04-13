@@ -19,3 +19,6 @@
 body {
     background-color: #ECE8E1;
 }
+body.scroll-lock {
+    overflow: hidden;
+}
