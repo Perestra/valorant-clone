@@ -11,6 +11,7 @@ const VideoTag = ({ className, poster, src }) => {
       playsinline
       poster={ poster }
       src={ src } 
+      type="video/mp4"
     >
     </video>
   )
