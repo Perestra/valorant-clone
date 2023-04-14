@@ -5,13 +5,10 @@ const VideoTag = ({ className, poster, src }) => {
     <video 
       className={ className } 
       autoPlay 
-      preload="true" 
       muted 
       loop 
-      playsinline
       poster={ poster }
       src={ src } 
-      type="video/mp4"
     >
     </video>
   )
