@@ -1,16 +1,19 @@
 import React from 'react'
+import ReactPlayer from 'react-player'
 
-const VideoTag = ({ className, poster, src }) => {
+const VideoTag = ({ className, src }) => {
   return (
-    <video 
+    <ReactPlayer 
       className={ className } 
-      autoPlay 
-      muted 
-      loop 
-      poster={ poster }
-      src={ src } 
-    >
-    </video>
+      playing
+      loop={ true }
+      volume= { 1 }
+      muted={ true }
+      width='100%'
+      height='auto'
+      playsinline={ true }
+      url={ src }
+    />
   )
 }
 
