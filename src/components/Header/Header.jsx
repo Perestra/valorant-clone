@@ -9,6 +9,7 @@ import ImgTag from 'components/ImgTag/ImgTag';
 import NavHeader from 'components/NavHeader/NavHeader';
 
 import perfil from 'assets/images/perfil.jpg'
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
 
@@ -32,11 +33,11 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={ styles.header__container }>
-        <div className={ styles.header__logo }>
+        <NavLink className={ styles.header__logo } to='/'>
           <RiotLogo />
           <div className={ styles.slash }></div>
           <ValorantLogo />
-        </div>
+        </NavLink>
         {icon? 
           <IoIosMenu className={ styles.header__barIcon } onClick={ () => showMenu() } />
           : <IoMdClose className={ styles.header__closeIcon } onClick={ () => hideMenu() }/>
