@@ -31,7 +31,6 @@
 
         @media screen and (max-width: 540px) {
             height: 290px;
-            left: 0px;
         }
     }
     
@@ -47,19 +46,12 @@
 
         padding: 0 10px;
 
-        @media screen and (max-width: 1660px) {
+        @media screen and (max-width: 1400px) {
             max-width: 100%;
         }
 
         @media screen and (max-width: 1024px) {
             position: relative;
-            max-width: 100%;
-            height: auto;
-        }
-
-        @media screen and (max-width: 540px) {
-            position: relative;
-            max-width: 100%;
             height: auto;
         }
     }
@@ -71,22 +63,23 @@
     
         margin-top: 130px;
 
-        @media screen and (max-width: 1024px) {
+        @media screen and (max-width: 1400px) {
             position: absolute;
+            top: -20%;
+            left: 30%;
+
+        }
+        @media screen and (max-width: 1024px) {
             top: 0;
             right: 0px;
 
-            width: 55%;
+            width: 393px;
+            height: 603px;
             margin-top: 10px;
         }
-
         @media screen and (max-width: 540px) {
-            position: absolute;
-            top: 0;
-            right: 0px;
-
-            width: 55%;
-            margin-top: 10px;
+            width: 195px;
+            height: 300px;
         }
     }
     
@@ -260,11 +253,11 @@
                 height: 770px;
                 row-gap: 30px;
             }
-
             @media screen and (max-width: 540px) {
-                flex-direction: column-reverse;
-                height: 610px;
-                row-gap: 30px;
+                height: 655px;
+            }
+            @media screen and (max-width: 420px) {
+                height: 605px;
             }
         }
 
@@ -294,9 +287,7 @@
             }
 
             @media screen and (max-width: 540px) {
-                height: 360px;
                 row-gap: 20px;
-                justify-content: flex-start;
             }
         }
 
@@ -309,10 +300,6 @@
             row-gap: 15px;
 
             @media screen and (max-width: 1024px) {
-                height: 260px;
-            }
-
-            @media screen and (max-width: 540px) {
                 height: 260px;
             }
         }
