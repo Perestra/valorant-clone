@@ -35,14 +35,9 @@ const Agent = () => {
   return (
     <main className={ styles.main }>
         <section className={ styles.main__nav }>
-            <ImgTag 
-                className={styles.main__bgVideo} 
-                src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/122e6caea8b2a2dbb6d6e71eea4e24effab342da-5120x574.png" 
-                alt="Fundo azul com alguns pontos e traços vermelhos"
-            />
+            <ImgTag className={styles.main__bgVideo} src={ agent.image } alt={ agent.name } />
             <div className={styles.main__agent}>
                 <NavAgents agents={ agents } />
-                <ImgTag className={styles.main__agentImg} src={ agent.image } alt={ agent.name } />
                 <div className={ styles.main__agentContent } >
                     <div className={ styles.main__agentRole }>
                         <Text 
