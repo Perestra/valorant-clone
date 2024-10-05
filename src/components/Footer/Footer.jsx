@@ -21,14 +21,14 @@ const Footer = () => {
             </div>
             <div className={styles.footer__logos}>
                 <RiotLogo className={ styles.footer__logos__riot } />
-                <ImgTag src='https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/blt50870b13992cdf47/63b0d7d089f85210f400107e/val-logo-small.png?&height=75&disable=upscale' alt='Logo do Valorant' />
+                <ImgTag src='https://cmsassets.rgpub.io/sanity/images/dsfx7636/riotbar/47e4dd9a209ee97ce48e06cf6041a2ae2fc48bc6-98x55.png?&h=75&fit=max' alt='Logo do Valorant' />
             </div>
             <div className={ styles.footer__politics }>
                 <p>Política de privacidade</p>
                 <p>Termos de serviço</p>
                 <p>Preferências de cookies</p>
             </div>
-            <ImgTag src='https://images.contentstack.io/v3/assets/blt0eb2a2986b796d29/blt84ae391429f2375a/5f2db8f41967337e7590c9a8/riot-seloclassind-14-val.png?&height=100&disable=upscale' alt='Imagem da classificação indicativa de 14 anos' />
+            <ImgTag src='https://cmsassets.rgpub.io/sanity/images/dsfx7636/riotbar/fb29dac6eccbcc25808cef911e11bda1c435eb1d-397x232.png?&h=100&fit=max' alt='Imagem da classificação indicativa de 14 anos' />
             <div className={ styles.footer__developed }>
                 <span>Desenvolvidor por <strong>Danilo Perestrelo</strong></span>
             </div>
