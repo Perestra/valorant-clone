@@ -35,9 +35,10 @@ const Agent = () => {
   return (
     <main className={ styles.main }>
         <section className={ styles.main__nav }>
-            <VideoTag 
+            <ImgTag 
                 className={styles.main__bgVideo} 
-                src="https://assets.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt29d7c4f6bc077e9e/5eb26f54402b8b4d13a56656/agent-background-generic.mp4" 
+                src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/122e6caea8b2a2dbb6d6e71eea4e24effab342da-5120x574.png" 
+                alt="Fundo azul com alguns pontos e traços vermelhos"
             />
             <div className={styles.main__agent}>
                 <NavAgents agents={ agents } />
