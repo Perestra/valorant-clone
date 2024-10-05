@@ -13,7 +13,7 @@ const Agents = () => {
   return (
     <main className={styles.main}>
       <section className={styles.section}>
-        <ImgTag className={styles.section__background} src='https://playvalorant.com/assets/images/agents-background.jpg' alt='Imagem de fundo com o símbolo do valorant em vermelho' />
+        <ImgTag className={styles.section__background} src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/122e6caea8b2a2dbb6d6e71eea4e24effab342da-5120x574.png" alt="Fundo azul com alguns pontos e traços vermelhos" />
         <div className={styles.section__agents}>
           <NavAgents agents={ agents } />
           <ImgTag className={styles.section__img} src={ agentsImg } alt='Foto dos agentes Phoenix na esquerda, Viper ao centro e a Jett na direita' />
